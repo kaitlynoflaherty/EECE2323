@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.ip_user_files/bd/xorgate/ipshared/35a3/xup_nand2.srcs/sources_1/new/xup_nand2.v" \
+"../../../../project_1.ip_user_files/bd/xorgate/ip/xorgate_xup_nand2_0_2/sim/xorgate_xup_nand2_0_2.v" \
+"../../../../project_1.ip_user_files/bd/xorgate/ip/xorgate_xup_nand2_0_3/sim/xorgate_xup_nand2_0_3.v" \
+"../../../../project_1.ip_user_files/bd/xorgate/ip/xorgate_xup_nand2_0_0/sim/xorgate_xup_nand2_0_0.v" \
+"../../../../project_1.ip_user_files/bd/xorgate/ip/xorgate_xup_nand2_0_1/sim/xorgate_xup_nand2_0_1.v" \
+"../../../../project_1.ip_user_files/bd/xorgate/sim/xorgate.v" \
+"../../../../project_1.srcs/sources_1/bd/xorgate/hdl/xorgate_wrapper.v" \
+"../../../../project_1.srcs/sim_1/new/xorgate_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

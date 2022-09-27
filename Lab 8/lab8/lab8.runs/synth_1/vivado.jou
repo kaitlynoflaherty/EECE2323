@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Aug 19 13:21:13 2022
+# Process ID: 14656
+# Current directory: C:/Users/oflaherty.k.NUNET/lab8/lab8.runs/synth_1
+# Command line: vivado.exe -log pdatapath_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pdatapath_top.tcl
+# Log file: C:/Users/oflaherty.k.NUNET/lab8/lab8.runs/synth_1/pdatapath_top.vds
+# Journal file: C:/Users/oflaherty.k.NUNET/lab8/lab8.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pdatapath_top.tcl -notrace

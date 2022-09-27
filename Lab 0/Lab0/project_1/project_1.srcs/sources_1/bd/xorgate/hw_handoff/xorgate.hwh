@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Jul  5 10:20:42 2022" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="xorgate" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xor_2_xup_nand2_1" PORT="a"/>
+        <CONNECTION INSTANCE="xor_2_xup_nand2_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xor_2_xup_nand2_1" PORT="b"/>
+        <CONNECTION INSTANCE="xor_2_xup_nand2_3" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="xor_2_xup_nand2_2_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xor_2_xup_nand2_2" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/xor_2/xup_nand2_0" HWVERSION="1.0" INSTANCE="xor_2_xup_nand2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nand2" VLNV="xilinx.com:xup:xup_nand2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="xorgate_xup_nand2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xor_2_xup_nand2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xor_2_xup_nand2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xor_2/xup_nand2_1" HWVERSION="1.0" INSTANCE="xor_2_xup_nand2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nand2" VLNV="xilinx.com:xup:xup_nand2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="xorgate_xup_nand2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xor_2_xup_nand2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_0" PORT="b"/>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_3" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xor_2/xup_nand2_2" HWVERSION="1.0" INSTANCE="xor_2_xup_nand2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nand2" VLNV="xilinx.com:xup:xup_nand2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="xorgate_xup_nand2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xor_2_xup_nand2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xor_2_xup_nand2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xor_2_xup_nand2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xor_2/xup_nand2_3" HWVERSION="1.0" INSTANCE="xor_2_xup_nand2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nand2" VLNV="xilinx.com:xup:xup_nand2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="xorgate_xup_nand2_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xor_2_xup_nand2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xor_2_xup_nand2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xor_2_xup_nand2_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

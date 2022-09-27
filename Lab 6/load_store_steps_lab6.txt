@@ -1,0 +1,51 @@
+Generate and store a value to data memory 
+---------------
+Instruction 1:
+1- Press the right button to reset everything 
+2- Change the regfile_read_address2 to 1
+3- Set ALUSrc2 to 0
+4- Set the ALUOp to 1 (for 'inv' operation)
+5- Set MemToReg to 0
+6- Change the regfile_write_address2 to 1
+7- Set RegWrite to 1
+8- Reset RegWrite back to 0
+
+Instruction 2:
+1- Change the regfile_read_address1 to 1
+2- Change the regfile_write_address to 1
+3- Change the instr_i to 8'h03
+4- Change the ALUOp to 0x5 (for 'sll' operation)
+5- Set RegWrite to 1
+6- reset RegWrite back to 0
+
+Instruction 3:
+1- Set the ALUSrc2 to 1
+2- Set the value of instr_i to 0xFF
+3- Set the ALUOp to 0 (for 'add' operation)
+4- Set the regfile_read_address1 to 3 
+5- Change the regfile_read_address2 to 1
+6- Set MemWrite to 1
+7- Reset MemWrite back to 0
+
+Load the stored value from data memory
+---------------
+Instruction 4:
+1- Set the value of instr_i to 0xFF
+2- Set the ALUSrc2 to 1
+3- Change the regfile_read_address1 to 3 
+4- Set the ALUOp to 0 for 'add'
+5- Set MemToReg to 1
+6- Set regfile_write_address to 2 
+7- Set RegWrite to 1
+8- Set RegWrite to 0
+
+To check if the correct value is actually loaded to register file at address 0x2 or not:
+---------------
+Instruction 5:
+1- Change the regfile read address1 to 2
+2- Change the ALUOp to 3'b011
+3- Change the instr_i to 8'hF0
+4- Change the ALUSrc2 to 1
+5- Change the regfile write address to 2
+6- Change the RegWrite to 1
+7- Change the RegWrite to 0

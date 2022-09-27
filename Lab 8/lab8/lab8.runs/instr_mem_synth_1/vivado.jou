@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Aug 19 13:20:37 2022
+# Process ID: 12656
+# Current directory: C:/Users/oflaherty.k.NUNET/lab8/lab8.runs/instr_mem_synth_1
+# Command line: vivado.exe -log instr_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source instr_mem.tcl
+# Log file: C:/Users/oflaherty.k.NUNET/lab8/lab8.runs/instr_mem_synth_1/instr_mem.vds
+# Journal file: C:/Users/oflaherty.k.NUNET/lab8/lab8.runs/instr_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source instr_mem.tcl -notrace

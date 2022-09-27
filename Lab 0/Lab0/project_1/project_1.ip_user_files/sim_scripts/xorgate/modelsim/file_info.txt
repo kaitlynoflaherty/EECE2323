@@ -1,0 +1,7 @@
+xup_nand2.v,verilog,xil_defaultlib,../../../bd/xorgate/ipshared/35a3/xup_nand2.srcs/sources_1/new/xup_nand2.v,
+xorgate_xup_nand2_0_2.v,verilog,xil_defaultlib,../../../bd/xorgate/ip/xorgate_xup_nand2_0_2/sim/xorgate_xup_nand2_0_2.v,
+xorgate_xup_nand2_0_3.v,verilog,xil_defaultlib,../../../bd/xorgate/ip/xorgate_xup_nand2_0_3/sim/xorgate_xup_nand2_0_3.v,
+xorgate_xup_nand2_0_0.v,verilog,xil_defaultlib,../../../bd/xorgate/ip/xorgate_xup_nand2_0_0/sim/xorgate_xup_nand2_0_0.v,
+xorgate_xup_nand2_0_1.v,verilog,xil_defaultlib,../../../bd/xorgate/ip/xorgate_xup_nand2_0_1/sim/xorgate_xup_nand2_0_1.v,
+xorgate.v,verilog,xil_defaultlib,../../../bd/xorgate/sim/xorgate.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

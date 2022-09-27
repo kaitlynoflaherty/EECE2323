@@ -1,0 +1,13 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Module Name: xup_nand_vector
+//////////////////////////////////////////////////////////////////////////////////
+module xup_nand_vector #(parameter SIZE=4, DELAY=3)(
+    input [SIZE-1:0] a,
+    input [SIZE-1:0] b,
+    output [SIZE-1:0] y
+    );
+
+    nand #DELAY(y, a, b);
+
+endmodule

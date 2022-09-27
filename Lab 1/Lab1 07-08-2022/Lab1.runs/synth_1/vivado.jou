@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jul  8 10:43:44 2022
+# Process ID: 13236
+# Current directory: C:/Users/toure.o/Desktop/Lab1/Lab1/Lab1.runs/synth_1
+# Command line: vivado.exe -log adder8_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder8_top.tcl
+# Log file: C:/Users/toure.o/Desktop/Lab1/Lab1/Lab1.runs/synth_1/adder8_top.vds
+# Journal file: C:/Users/toure.o/Desktop/Lab1/Lab1/Lab1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source adder8_top.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jul  5 10:37:49 2022
+# Process ID: 6188
+# Current directory: C:/Users/toure.o/Desktop/Lab0/project_1/project_1.runs/xorgate_xup_nand2_0_2_synth_1
+# Command line: vivado.exe -log xorgate_xup_nand2_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xorgate_xup_nand2_0_2.tcl
+# Log file: C:/Users/toure.o/Desktop/Lab0/project_1/project_1.runs/xorgate_xup_nand2_0_2_synth_1/xorgate_xup_nand2_0_2.vds
+# Journal file: C:/Users/toure.o/Desktop/Lab0/project_1/project_1.runs/xorgate_xup_nand2_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source xorgate_xup_nand2_0_2.tcl -notrace
